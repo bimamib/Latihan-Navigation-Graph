@@ -57,8 +57,5 @@
             app:launchSingleTop="true"
             app:popUpTo="@id/homeFragment"
             app:popUpToInclusive="true" />
-        <action
-            android:id="@+id/action_detailCategoryFragment_self"
-            app:destination="@id/detailCategoryFragment" />
     </fragment>
 </navigation>
