@@ -39,7 +39,6 @@ class CategoryFragment : Fragment() {
                 .navigate(R.id.action_categoryFragment_to_detailCategoryFragment, mBundle)
         }
     }
-
     override fun onDestroy() {
         super.onDestroy()
         _binding = null
